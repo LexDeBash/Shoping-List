@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		76D8CFC3257AD54F00EAE989 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D8CFC2257AD54F00EAE989 /* AppDelegate.swift */; };
 		76D8CFC5257AD54F00EAE989 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D8CFC4257AD54F00EAE989 /* SceneDelegate.swift */; };
-		76D8CFC7257AD54F00EAE989 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D8CFC6257AD54F00EAE989 /* ViewController.swift */; };
 		76D8CFCA257AD54F00EAE989 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76D8CFC8257AD54F00EAE989 /* Main.storyboard */; };
 		76D8CFCC257AD55300EAE989 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76D8CFCB257AD55300EAE989 /* Assets.xcassets */; };
 		76D8CFCF257AD55300EAE989 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76D8CFCD257AD55300EAE989 /* LaunchScreen.storyboard */; };
+		76D8CFDF257AE82500EAE989 /* ShopingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D8CFDE257AE82500EAE989 /* ShopingListViewController.swift */; };
+		76D8CFE4257AE85400EAE989 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D8CFE3257AE85400EAE989 /* LoginViewController.swift */; };
+		76D8CFE7257AE92700EAE989 /* SearchListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D8CFE6257AE92700EAE989 /* SearchListViewController.swift */; };
+		76D8CFEB257AE9D700EAE989 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D8CFEA257AE9D700EAE989 /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		76D8CFBF257AD54F00EAE989 /* Shoping List for my Frends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shoping List for my Frends.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76D8CFC2257AD54F00EAE989 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76D8CFC4257AD54F00EAE989 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		76D8CFC6257AD54F00EAE989 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		76D8CFC9257AD54F00EAE989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		76D8CFCB257AD55300EAE989 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76D8CFCE257AD55300EAE989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76D8CFD0257AD55300EAE989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76D8CFDE257AE82500EAE989 /* ShopingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopingListViewController.swift; sourceTree = "<group>"; };
+		76D8CFE3257AE85400EAE989 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		76D8CFE6257AE92700EAE989 /* SearchListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListViewController.swift; sourceTree = "<group>"; };
+		76D8CFEA257AE9D700EAE989 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +64,32 @@
 			children = (
 				76D8CFC2257AD54F00EAE989 /* AppDelegate.swift */,
 				76D8CFC4257AD54F00EAE989 /* SceneDelegate.swift */,
-				76D8CFC6257AD54F00EAE989 /* ViewController.swift */,
 				76D8CFC8257AD54F00EAE989 /* Main.storyboard */,
+				76D8CFEE257AF7B200EAE989 /* New Group */,
+				76D8CFEA257AE9D700EAE989 /* ListViewController.swift */,
+				76D8CFDE257AE82500EAE989 /* ShopingListViewController.swift */,
+				76D8CFE3257AE85400EAE989 /* LoginViewController.swift */,
+				76D8CFDC257AE7C000EAE989 /* View Controllers */,
 				76D8CFCB257AD55300EAE989 /* Assets.xcassets */,
 				76D8CFCD257AD55300EAE989 /* LaunchScreen.storyboard */,
 				76D8CFD0257AD55300EAE989 /* Info.plist */,
 			);
 			path = "Shoping List for my Frends";
+			sourceTree = "<group>";
+		};
+		76D8CFDC257AE7C000EAE989 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		76D8CFEE257AF7B200EAE989 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				76D8CFE6257AE92700EAE989 /* SearchListViewController.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +162,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76D8CFC7257AD54F00EAE989 /* ViewController.swift in Sources */,
+				76D8CFE4257AE85400EAE989 /* LoginViewController.swift in Sources */,
+				76D8CFDF257AE82500EAE989 /* ShopingListViewController.swift in Sources */,
+				76D8CFEB257AE9D700EAE989 /* ListViewController.swift in Sources */,
 				76D8CFC3257AD54F00EAE989 /* AppDelegate.swift in Sources */,
+				76D8CFE7257AE92700EAE989 /* SearchListViewController.swift in Sources */,
 				76D8CFC5257AD54F00EAE989 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,7 +324,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Bruyko.Shoping-List-for-my-Frends";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +343,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Bruyko.Shoping-List-for-my-Frends";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
