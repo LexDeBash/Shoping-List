@@ -1,0 +1,6 @@
+framework module Pods_Shoping_List_for_my_Frends {
+  umbrella header "Pods-Shoping List for my Frends-umbrella.h"
+
+  export *
+  module * { export * }
+}

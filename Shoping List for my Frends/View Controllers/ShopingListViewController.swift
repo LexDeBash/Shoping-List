@@ -40,11 +40,11 @@ class ShopingListViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "listCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "listCell", for: indexPath) as! ShopViewCell
 //        cell.backgroundColor = .clear
         let listTitle = shopList[indexPath.row].title
-        cell.textLabel?.text = listTitle
-        
+        cell.nameListLabel.text = listTitle
+        cell.view.backgroundColor = #colorLiteral(red: 0.6642763019, green: 0.8812477589, blue: 0.7537506223, alpha: 1)
         
         return cell
     }

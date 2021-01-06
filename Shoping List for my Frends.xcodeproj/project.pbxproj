@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7656AC2C25A6650A00F26F0B /* ShopViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7656AC2B25A6650A00F26F0B /* ShopViewCell.swift */; };
 		76D8CFC3257AD54F00EAE989 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D8CFC2257AD54F00EAE989 /* AppDelegate.swift */; };
 		76D8CFC5257AD54F00EAE989 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D8CFC4257AD54F00EAE989 /* SceneDelegate.swift */; };
 		76D8CFCA257AD54F00EAE989 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76D8CFC8257AD54F00EAE989 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		162A556A9D3226B5DE192C2C /* Pods_Shoping_List_for_my_Frends.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shoping_List_for_my_Frends.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D6B27BB602AAA12D4EC213A /* Pods-Shoping List for my Frends.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shoping List for my Frends.debug.xcconfig"; path = "Target Support Files/Pods-Shoping List for my Frends/Pods-Shoping List for my Frends.debug.xcconfig"; sourceTree = "<group>"; };
+		7656AC2B25A6650A00F26F0B /* ShopViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewCell.swift; sourceTree = "<group>"; };
 		76D8CFBF257AD54F00EAE989 /* Shoping List for my Frends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shoping List for my Frends.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76D8CFC2257AD54F00EAE989 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76D8CFC4257AD54F00EAE989 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				76D8CFEA257AE9D700EAE989 /* ListViewController.swift */,
 				76D8CFE3257AE85400EAE989 /* LoginViewController.swift */,
 				76D8CFDE257AE82500EAE989 /* ShopingListViewController.swift */,
+				7656AC2B25A6650A00F26F0B /* ShopViewCell.swift */,
 				76D8D077257EF17600EAE989 /* AccountViewController.swift */,
 			);
 			path = "View Controllers";
@@ -264,6 +267,7 @@
 				76D8CFDF257AE82500EAE989 /* ShopingListViewController.swift in Sources */,
 				76D8CFEB257AE9D700EAE989 /* ListViewController.swift in Sources */,
 				76D8CFC3257AD54F00EAE989 /* AppDelegate.swift in Sources */,
+				7656AC2C25A6650A00F26F0B /* ShopViewCell.swift in Sources */,
 				76D8CFE7257AE92700EAE989 /* SearchListViewController.swift in Sources */,
 				76D8CFC5257AD54F00EAE989 /* SceneDelegate.swift in Sources */,
 				76D8D039257E713100EAE989 /* Users.swift in Sources */,
