@@ -18,7 +18,7 @@ class ShopingListViewController: UITableViewController {
         guard let currentUser = Auth.auth().currentUser else { return }
         user = AppUser(user: currentUser)
         ref = Database.database().reference(withPath: "users").child(user.uid).child("shopList")
-        
+        tableView.rowHeight = 90
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -40,11 +40,11 @@ class ShopingListViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "listCell", for: indexPath) as! ShopViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "listCell", for: indexPath)
 //        cell.backgroundColor = .clear
         let listTitle = shopList[indexPath.row].title
-        cell.nameListLabel.text = listTitle
-        cell.view.backgroundColor = #colorLiteral(red: 0.6642763019, green: 0.8812477589, blue: 0.7537506223, alpha: 1)
+        cell.textLabel?.text = listTitle
+        cell.backgroundColor = #colorLiteral(red: 0.6642763019, green: 0.8812477589, blue: 0.7537506223, alpha: 1)
         
         return cell
     }
