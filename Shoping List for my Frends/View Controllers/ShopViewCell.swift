@@ -7,9 +7,9 @@
 
 import UIKit
 
-class ShopViewCell: UITableViewCell {
-
-    @IBOutlet weak var nameListLabel: UILabel!
-    
-    @IBOutlet weak var view: UIView!
-}
+//class ShopViewCell: UITableViewCell {
+//
+//    @IBOutlet weak var nameListLabel: UILabel!
+//    
+//    @IBOutlet weak var view: UIView!
+//}
