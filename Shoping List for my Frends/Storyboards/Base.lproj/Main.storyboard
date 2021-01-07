@@ -222,7 +222,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7fP-CY-dwi">
                                         <rect key="frame" x="0.0" y="276" width="354" height="34"/>
                                         <color key="backgroundColor" red="0.28546549775719621" green="0.50686675518513946" blue="0.67768480329949243" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Ргенистрация"/>
+                                        <state key="normal" title="Регистрация"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
